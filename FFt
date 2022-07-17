@@ -1,0 +1,12 @@
+#Algorithm to determine a  Fourier's transformed of a equipment sound.
+#Import the libraries
+import numpy as npm
+import matplotlib.pyplot as pltm
+import scipy.fftpack as fftm
+import scipy.io.wavfile as waves
+import winsound 
+
+%matplotlib inline
+
+audiofile = 'I:/Equipo1.wav'
+winsound.PLaysound(audiofile, winsound.SND_FILENAME)
